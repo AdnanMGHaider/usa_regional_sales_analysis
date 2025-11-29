@@ -128,9 +128,14 @@ FluxWare Retail Systems generates the majority of its revenue through the Wholes
 
 **Charts to include:**
 
-- Revenue by channel
-- Profit by channel
-- Channel order volume comparison
+#### Revenue by Channel
+<img src="images/channel_revenue.png" width="450">
+
+#### Average Profit Margin by Channel
+<img src="images/channel_margin.png" width="450">
+
+#### Average Order Value Distribution
+<img src="images/order_value_histogram.png" width="650">
 
 ### Regional Performance
 
@@ -225,6 +230,7 @@ The analysis is based on historical sales extracts provided by FluxWare Retail S
   Example installation command:
   `pip install pandas numpy matplotlib seaborn`
 - All charts used in this README are saved in the images folder and are generated directly from the analysis notebook.
+
 
 
 
