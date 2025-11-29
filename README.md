@@ -82,8 +82,11 @@ Monthly revenue patterns were evaluated across four years of data. Revenue remai
 
 **Charts to include:**
 
-- Monthly revenue trend
-- Seasonality comparison across years
+#### Monthly Revenue Trend
+<img src="images/monthly_revenue_trend.png" width="650">
+
+#### Monthly Seasonality (All Years Combined)
+<img src="images/monthly_seasonality.png" width="650">
 
 ### Product Performance
 
@@ -215,4 +218,5 @@ The analysis is based on historical sales extracts provided by FluxWare Retail S
   Example installation command:
   `pip install pandas numpy matplotlib seaborn`
 - All charts used in this README are saved in the images folder and are generated directly from the analysis notebook.
+
 
