@@ -174,9 +174,11 @@ Customer level analysis shows a wide distribution of revenue contribution across
 
 **Charts to include:**
 
-- Customer revenue distribution
-- Customer segmentation scatter or bubble plot
-- Profit margin patterns across customer tiers
+#### Customer Revenue Distribution
+<img src="images/customer_revenue_distribution.png" width="650">
+
+#### Customer Segmentation (Revenue vs Margin)
+<img src="images/customer_segmentation.png" width="650">
 
 ### Profit and Pricing Insights
 
@@ -189,6 +191,9 @@ Profit behaviour across the dataset shows predictable patterns with consistent m
 - High revenue products also tend to generate the highest total profit
 - Total cost scales proportionally with order quantity and product mix, indicating consistent cost per unit
 - Margin volatility increases slightly among lower revenue customers and lower volume products
+
+#### Correlation Matrix
+<img src="images/correlation_heatmap.png" width="650">
 
 ## Recommendations
 
@@ -234,6 +239,7 @@ The analysis is based on historical sales extracts provided by FluxWare Retail S
   Example installation command:
   `pip install pandas numpy matplotlib seaborn`
 - All charts used in this README are saved in the images folder and are generated directly from the analysis notebook.
+
 
 
 
