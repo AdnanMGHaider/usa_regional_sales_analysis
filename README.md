@@ -40,7 +40,7 @@ one product line within a single customer order, enriched with customer details,
 The data model includes relationships across customers, products, regions, and state level attributes.
 The ERD below summarizes key joins used to create the unified dataset.
 
-(ERD image will be visible here after the GitHub upload.)
+![Entity Relationship Diagram](docs/erd.png)
 
 ## Executive Summary
 
@@ -215,3 +215,4 @@ The analysis is based on historical sales extracts provided by FluxWare Retail S
   Example installation command:
   `pip install pandas numpy matplotlib seaborn`
 - All charts used in this README are saved in the images folder and are generated directly from the analysis notebook.
+
