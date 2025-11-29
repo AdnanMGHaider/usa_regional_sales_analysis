@@ -102,10 +102,17 @@ Product level analysis reveals a clear concentration of revenue among the top pe
 
 **Charts to include:**
 
-- Top ten products by revenue
-- Top ten products by average profit
-- Unit price distribution by product
-- Profit margin percentage vs unit price
+#### Top 10 Products by Revenue
+<img src="images/top_products_revenue.png" width="650">
+
+#### Top 10 Products by Average Profit
+<img src="images/top_products_profit.png" width="650">
+
+#### Unit Price Distribution by Product
+<img src="images/unit_price_boxplot.png" width="650">
+
+#### Profit Margin Percentage vs Unit Price
+<img src="images/profit_vs_price_scatter.png" width="650">
 
 ### Sales Channels
 
@@ -218,5 +225,6 @@ The analysis is based on historical sales extracts provided by FluxWare Retail S
   Example installation command:
   `pip install pandas numpy matplotlib seaborn`
 - All charts used in this README are saved in the images folder and are generated directly from the analysis notebook.
+
 
 
