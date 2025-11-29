@@ -151,10 +151,14 @@ Regional and state level analysis highlights strong geographic concentration in 
 
 **Charts to include:**
 
-- Total revenue by US region
-- Total revenue by state
-- Top 10 states by revenue
-- Top 10 states by order volume
+#### Total Revenue by US Region
+<img src="images/region_revenue.png" width="650">
+
+#### Top 10 States by Revenue
+<img src="images/top_states_revenue.png" width="650">
+
+#### Top 10 States by Order Volume
+<img src="images/top_states_orders.png" width="650">
 
 ### Customer Insights
 
@@ -230,6 +234,7 @@ The analysis is based on historical sales extracts provided by FluxWare Retail S
   Example installation command:
   `pip install pandas numpy matplotlib seaborn`
 - All charts used in this README are saved in the images folder and are generated directly from the analysis notebook.
+
 
 
 
